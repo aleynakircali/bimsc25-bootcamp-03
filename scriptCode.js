@@ -60,6 +60,7 @@ function lunchClick(){
     breakfastFoodsDiv.style.display = 'none'
 }
 
+letLunchElement = document.getElementById('lunch')
 lunchElement.addEventListener('click', () => lunchClick())
 
 
